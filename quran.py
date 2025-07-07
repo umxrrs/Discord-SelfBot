@@ -87,7 +87,7 @@ async def quran(ctx, *, input_text=""):
         embed = discord.Embed(title=f"{surah_name} {surah}:{ayah_number} - Sahih International", color=0x00FF00)
         embed.add_field(name="Arabic", value=verse_text_ar, inline=False)
         embed.add_field(name="English", value=verse_text_en, inline=False)
-        embed.set_footer(text="QuranBot By Apophis")
+        embed.set_footer(text="QuranBot By Umar <3")
 
         await ctx.send(embed=embed)
 
@@ -127,7 +127,7 @@ async def quran_slash(interaction: discord.Interaction, reference: str):
         embed = discord.Embed(title=f"{surah_name} {surah}:{ayah_number} - Sahih International", color=0x00FF00)
         embed.add_field(name="Arabic", value=verse_text_ar, inline=False)
         embed.add_field(name="English", value=verse_text_en, inline=False)
-        embed.set_footer(text="QuranBot By umar <3")
+        embed.set_footer(text="QuranBot By Umar <3")
 
         await interaction.response.send_message(embed=embed)
 
@@ -170,7 +170,7 @@ for surah_name, surah_number in SURAH_MAP.items():
             embed = discord.Embed(title=f"{surah_name} {surah}:{ayah_number} - Sahih International", color=0x00FF00)
             embed.add_field(name="Arabic", value=verse_text_ar, inline=False)
             embed.add_field(name="English", value=verse_text_en, inline=False)
-            embed.set_footer(text="QuranBot By Umar")
+            embed.set_footer(text="QuranBot By Umar <3")
 
             await interaction.response.send_message(embed=embed)
 
