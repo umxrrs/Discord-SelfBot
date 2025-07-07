@@ -32,7 +32,7 @@
    ```
 
 3. **Configure the Bot**:
-   - Replace `BOT_TOKEN_HERE` in the code with your Discord bot token from the [Discord Developer Portal](https://discord.com/developers/applications).
+   - Put your Discord bot token from the [Discord Developer Portal](https://discord.com/developers/applications). in `config.json`  
    - Ensure your bot has the necessary permissions (`Send Messages`, `Embed Links`) and intents enabled (`message_content`).
 
 4. **Run the Bot**:
