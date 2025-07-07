@@ -19,7 +19,19 @@ class QuranBot(commands.Bot):
 
 bot = QuranBot(command_prefix="", help_command=None, intents=intents)
 
-TOKEN = 'BOT_TOKEN_HERE'
+try:
+    with open('config.json', 'r') as config_file:
+        configsss = json.load(config_file)
+        bottoken = configsss.get("token")
+        if not bottoken:
+            raise ValueError("Token not found in config.json.")
+except FileNotFoundError:
+    print("config.json file not found. Please create the file with your bot token.")
+    sys.exit()
+except ValueError as e:
+    print(f"Error: {e}")
+    sys.exit()
+    
 
 @bot.event
 async def on_ready():
@@ -183,4 +195,4 @@ for surah_name, surah_number in SURAH_MAP.items():
 
 bot.tree.add_command(quran_slash)
 
-bot.run(TOKEN)
+bot.run(bottoken)
