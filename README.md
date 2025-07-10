@@ -1,5 +1,7 @@
 # QuranBot
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 **QuranBot** is a *Discord bot* designed to fetch verses from the Quran in both **Arabic** and **English** (Sahih International translation) using the [Al Quran Cloud API](http://api.alquran.cloud/). It supports **slash commands** for modern Discord interactions, traditional prefix-based commands, and individual slash commands for every Surah, making it easy to access specific verses.
 
 ## Features
