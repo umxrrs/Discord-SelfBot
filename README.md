@@ -80,10 +80,14 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Credits
 
-- Built by **Umar**.
+- Developer(Built By): **Umar**
+- Helpers (with testing): **Asad**, **Muhammad**, **Ahmed**, **Abdullah**
 - Powered by the [Al Quran Cloud API](http://api.alquran.cloud/).
 - Uses [discord.py](https://github.com/Rapptz/discord.py) for Discord integration.
 
 ---
 
 Let me know if you want to tweak anything or add more sections!
+Dm me on instagram, its on my github profile! <3
+
+Give some support to QuranBot!
